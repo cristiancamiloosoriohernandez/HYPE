@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jersey+20&family=Lalezar&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Hype</title>
+
+</head>
+
+<body>
+
+    <section id="landing" class="row">
+
+        <aside id="sticky-top" class="col-sm-1 sticky-top">
+            <a href=""><button class="Log-In"><i class="bi bi-box-arrow-in-right"></i></button></a>
+            <a href=""><button class="Log-In"><i class="bi bi-funnel"></i></button></a>
+            <a href="./blog.html"><button class="Log-In"><i class="bi bi-book"></i></button></a>
+        </aside>
+        <section id="top" class="col-10 col-sm-10 top">
+            <h1 class="Hype">Hype</h1>
+            <nav>
+                <a href="#eventos"><button class="nav-buttons">Eventos</button></a>
+                <a href="#restaurantes"><button class="nav-buttons">Restaurantes</button></a>
+                <a href="#lugares"><button class="nav-buttons">Lugares</button></a>
+            </nav>
+        </section>
+        <aside class="col-1 col-sm-1"></aside>
+
+
+
+        <aside class="col-sm-1 aside"></aside>
+        <section id="carrusel" class="col-10 col-sm-10 carrusel">
+            <div id="carousel" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <i class="bi bi-star"></i>
+                        <article class="articulo col-5">
+                            <h2 class="evento-semanal">Feria del Libro</h2>
+                            <h3 class="lugar">Croferias 
+                                <br class="fecha">del 25 al 20 de mayo</h3>
+                            <p class="descripcion">Feria internacional del libro que tendra como pais invitado a españa, reunira todas las editoriales nacionales y 
+                                las mas importantes a nivel internacional, tenfra conversatorios, actividades ludicas para menores y concursos para los
+                                mas grandes.</p>
+                                <p class="descripcion">Entrada adulto: $25.000 COP
+                                <br>Entrada menores: Gratis hasta los 13 años</p>
+                        </article>
+                        <a href="https://feriadellibro.com/" target="_blank"><img src="./img/feria.jpg" class="img-carousel"></a>
+                    </div>
+                    <div class="carousel-item">
+                        <i class="bi bi-star"></i>
+                        <article class="articulo col-5">
+                            <h2 class="evento-semanal">Exposición Lemuria</h2>
+                            <h3 class="lugar">Galería casas Reigner
+                                <br class="fecha">desde el 3 de Abril</h3>
+                            <p class="descripcion">Exposición en la galeria casas reigner exponiendo las obras de artistas internacionales</p>
+                                <p class="descripcion">Entrada: en taquilla
+                        </article>
+                        <a href="https://www.arteinformado.com/agenda/f/lemuria-creando-el-cielo-en-la-tierra-236664" target="_blank"><img src="./img/lemuria.jpg" class="img-carousel"></a>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <h1 class="titulo">¡¡¡ PARA ESTA SEMANA !!!</h1>
+        </section>
+        <aside class="col-1 col-sm-1"></aside>        
+
+
+        <aside class="col-sm-1 aside"></aside>
+        <section id="eventos" class="col-10 col-sm-10 secciones">
+            <div class="row">
+                <div class="col-2 iconos">
+                    <a href="#top"><i class="bi bi-house"></i></a>
+                    <a href="#restaurantes"><i class="bi bi-cup-hot"></i></a>
+                    <a href="#lugares"><i class="bi bi-compass"></i></a>
+                </div>
+                <h2 id="eventos" class="col-9 titulo-seccion">EVENTOS</h2>
+            </div>
+            <section class="cards">
+                <div class="col-1">
+                    <div class="card" style="width: 15rem; height: 30rem;" >
+                        <a href="./detalle de informacion.html"><img src="./img/teatro.jpg" class="card-img" height="100%" width="70%"></a>
+                        <div class="card-body">
+                            <h5 class="card-title">Teatro</h5>
+                            <p class="card-text">La Castellana</p>
+                            <p class="card-description">funciones martes y jueves</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1">
+                    <div class="card" style="width: 15rem; height: 30rem;">
+                        <img src="https://i.pinimg.com/736x/13/17/cc/1317cceb5ace3efdf422587420ba2a94.jpg" class="card-img" height="100%" width="70%">
+                        <div class="card-body">
+                            <h5 class="card-title">Evento</h5>
+                            <p class="card-text">Lugar</p>
+                            <p class="card-description">fecha</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1">
+                    <div class="card" style="width: 15rem; height: 30rem;">
+                        <img src="https://i.pinimg.com/736x/b3/b3/b7/b3b3b765de17f62e520e6dc6a3728376.jpg" class="card-img" height="100%" width="70%">
+                        <div class="card-body">
+                            <h5 class="card-title">Evento</h5>
+                            <p class="card-text">Lugar</p>
+                            <p class="card-description">fecha</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1">
+                    <div class="card" style="width: 15rem; height: 30rem;">
+                        <img src="https://i.pinimg.com/736x/1b/78/6f/1b786f5b041fe1aadc7d28e7bc472a41.jpg" class="card-img" height="100%" width="70%">
+                        <div class="card-body">
+                            <h5 class="card-title">Evento</h5>
+                            <p class="card-text">Lugar</p>
+                            <p class="card-description">fecha</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <aside class="col-1 col-sm-1"></aside>
+
+
+        <aside class="col-sm-1 aside"></aside>
+        <section id="restaurantes"  class="col-10 col-sm-10 secciones">
+            <div class="row">
+                <div class="col-2 iconos">
+                    <a href="#top"><i class="bi bi-house"></i></a>
+                    <a href="#eventos"><i class="bi bi-calendar-event"></i></a>
+                    <a href="#lugares"><i class="bi bi-compass"></i></a>
+                </div>
+                <h2 class="col-9 titulo-seccion">RESTAURANTES</h2>
+            </div>
+            <section class="cards">
+                <div class="col-1">
+                    <div class="card" style="width: 15rem; height: 30rem;" >
+                        <a href="https://teatronacional.co/" target="_blank"><img src="./img/teatro.jpg" class="card-img" height="100%" width="70%"></a>
+                        <div class="card-body">
+                            <h5 class="card-title">Teatro</h5>
+                            <p class="card-text">La Castellana</p>
+                            <p class="card-description">funciones martes y jueves</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1">
+                    <div class="card" style="width: 15rem; height: 30rem;">
+                        <img src="https://i.pinimg.com/736x/13/17/cc/1317cceb5ace3efdf422587420ba2a94.jpg" class="card-img" height="100%" width="70%">
+                        <div class="card-body">
+                            <h5 class="card-title">Evento</h5>
+                            <p class="card-text">Lugar</p>
+                            <p class="card-description">fecha</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1">
+                    <div class="card" style="width: 15rem; height: 30rem;">
+                        <img src="https://i.pinimg.com/736x/b3/b3/b7/b3b3b765de17f62e520e6dc6a3728376.jpg" class="card-img" height="100%" width="70%">
+                        <div class="card-body">
+                            <h5 class="card-title">Evento</h5>
+                            <p class="card-text">Lugar</p>
+                            <p class="card-description">fecha</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1">
+                    <div class="card" style="width: 15rem; height: 30rem;">
+                        <img src="https://i.pinimg.com/736x/1b/78/6f/1b786f5b041fe1aadc7d28e7bc472a41.jpg" class="card-img" height="100%" width="70%">
+                        <div class="card-body">
+                            <h5 class="card-title">Evento</h5>
+                            <p class="card-text">Lugar</p>
+                            <p class="card-description">fecha</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <aside class="col-1 col-sm-1"></aside>
+
+
+        <aside class="col-sm-1 aside"></aside>
+        <section id="lugares" class="col-10 col-sm-10 secciones">
+            <div class="row">
+                <div class="col-2 iconos">
+                    <a href="#top"><i class="bi bi-house"></i></a>
+                    <a href="#eventos"><i class="bi bi-calendar-event"></i></a>
+                    <a href="#restaurantes"><i class="bi bi-cup-hot"></i></a>
+                </div>
+                <h2 class="col-9 titulo-seccion">LUGARES</h2>
+            </div>
+            <section class="cards">
+                <div class="col-1">
+                    <div class="card" style="width: 15rem; height: 30rem;" >
+                        <a href="https://teatronacional.co/" target="_blank"><img src="./img/teatro.jpg" class="card-img" height="100%" width="70%"></a>
+                        <div class="card-body">
+                            <h5 class="card-title">Teatro</h5>
+                            <p class="card-text">La Castellana</p>
+                            <p class="card-description">funciones martes y jueves</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1">
+                    <div class="card" style="width: 15rem; height: 30rem;">
+                        <img src="https://i.pinimg.com/736x/13/17/cc/1317cceb5ace3efdf422587420ba2a94.jpg" class="card-img" height="100%" width="70%">
+                        <div class="card-body">
+                            <h5 class="card-title">Evento</h5>
+                            <p class="card-text">Lugar</p>
+                            <p class="card-description">fecha</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1">
+                    <div class="card" style="width: 15rem; height: 30rem;">
+                        <img src="https://i.pinimg.com/736x/b3/b3/b7/b3b3b765de17f62e520e6dc6a3728376.jpg" class="card-img" height="100%" width="70%">
+                        <div class="card-body">
+                            <h5 class="card-title">Evento</h5>
+                            <p class="card-text">Lugar</p>
+                            <p class="card-description">fecha</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1">
+                    <div class="card" style="width: 15rem; height: 30rem;">
+                        <img src="https://i.pinimg.com/736x/1b/78/6f/1b786f5b041fe1aadc7d28e7bc472a41.jpg" class="card-img" height="100%" width="70%">
+                        <div class="card-body">
+                            <h5 class="card-title">Evento</h5>
+                            <p class="card-text">Lugar</p>
+                            <p class="card-description">fecha</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <aside class="col-1 col-sm-1"></aside>
+
+
+
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <script src="./js.js"></script>
+
+</body>
+
+
+<footer>
+    <span class="footer-icons">
+        <i class="bi bi-whatsapp"></i>
+        <i class="bi bi-facebook"></i>
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-threads"></i>
+        <i class="bi bi-twitter-x"></i>
+        <i class="bi bi-twitch"></i>
+        <i class="bi bi-discord"></i>
+        <i class="bi bi-envelope"></i>
+    </span>
+</footer>
+</html>

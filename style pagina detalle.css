@@ -1,0 +1,190 @@
+*{
+  background-color: black;
+}
+a {
+    text-decoration: none !important;
+    color: #ffffff !important;
+}
+.lalezar-regular {
+    font-family: "Lalezar", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.jersey-20-regular {
+    font-family: "Jersey 20", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.inter-inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+
+/* header */
+header {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+}
+#sticky-top{
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    background-color: #ffffff00;
+}
+.Log-In{
+        color: #ffffff;
+        border: none;
+        font-size: 2rem;
+        margin: 1rem;            
+}
+.Log-In:hover{
+        color: #82E02F;
+        transition: 0.2s;
+}
+.Hype {
+    font-family: "Lalezar", system-ui;
+    font-weight: 96;
+    font-style: normal;
+    font-size: 5rem;
+    color: #ffffff;
+    text-align: center;
+    margin: 2rem auto;
+    padding: 1rem auto;
+}
+
+/* body */
+.contenido{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #000000;
+    height: 85vh;
+}
+.informacion{
+    height: 80vh;
+    padding: 8rem 0;;
+}
+.informacion-texto{
+    font-family: "Lalezar", system-ui;
+    font-style: regular;
+    font-size: 16;
+    color: #ffffff;
+    text-align: center;
+    margin: 2rem ;
+    padding: 3rem;
+}
+.link{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    text-decoration: underline !important;
+}
+.link:hover {
+    color: #82E02F !important;
+}
+.fotos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.img-1 img{
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    border-radius: 2rem;
+    z-index: 12;
+    height: 30%;
+}
+.img-2 img{
+    position: absolute;
+    height: 38rem;
+    border-radius: 5%;
+    left: 30%;
+    bottom: 20%;
+}
+
+/* footer */
+footer{
+    background-color: #ffffff;
+    height: 5vh;
+    width: auto;
+    padding: 1rem;
+}
+.footer-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #000000;
+    gap: 3rem;
+    font-size: 1rem;
+
+}
+.bi-whatsapp{
+    background-color: #ffffff;
+}
+.bi-whatsapp:hover{
+    color: #8069BF;
+    transition: 0.2s;
+}
+.bi-facebook{
+    background-color: #ffffff;
+}
+.bi-facebook:hover{
+    color: #8069BF;
+    transition: 0.2s;
+}
+.bi-instagram{
+    background-color: #ffffff;
+}
+.bi-instagram:hover{
+    color: #8069BF;
+    transition: 0.2s;
+}
+.bi-threads{
+    background-color: #ffffff;
+}
+.bi-threads:hover{
+    color: #8069BF;
+    transition: 0.2s;
+}
+.bi-twitter-x{
+    background-color: #ffffff;
+}
+.bi-twitter-x:hover{
+    color: #8069BF;
+    transition: 0.2s;
+}
+.bi-twitch{
+    background-color: #ffffff;
+}
+.bi-twitch:hover{
+    color: #8069BF;
+    transition: 0.2s;
+}
+.bi-discord{
+    background-color: #ffffff;
+}
+.bi-discord:hover{
+    color: #8069BF;
+    transition: 0.2s;
+}
+.bi-envelope{
+    background-color: #ffffff;
+}
+.bi-envelope:hover{
+    color: #8069BF;
+    transition: 0.2s;
+}
