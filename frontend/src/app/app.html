@@ -1,0 +1,10 @@
+<div class="chat-container">
+  <h1>HYPE Chat</h1>
+
+  <div class="messages">
+    <div *ngFor="let msg of messages">{{ msg }}</div>
+  </div>
+
+  <input [(ngModel)]="message" placeholder="Escribe tu mensaje" />
+  <button (click)="sendMessage()">Enviar</button>
+</div>
